@@ -14,23 +14,34 @@ body{
     width: 100%;
 }
 
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100px;
+    width: 100%;
+}
+
 .row{
     justify-content: space-around;
     margin-top: 5%;
 }   
 
-.navbar{
+nav{
     position: sticky;
 }
 
 .container{
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     color: white;
     font-size: 150%;
 }
 
-.container1{
-justify-content: space-between;
-color: white;
+.card{
+    color: white;
+    padding-top: 1%;
 }
+
