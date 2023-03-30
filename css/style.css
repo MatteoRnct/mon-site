@@ -8,8 +8,6 @@ body{
 .pokemon{
     display: flex;
     justify-content: center;
-
-    background-color: red;
     align-items: center;
     color: white;
     height: 100px;
@@ -17,8 +15,22 @@ body{
 }
 
 .row{
-    display: flex;
     justify-content: space-around;
     margin-top: 5%;
 }   
 
+.navbar{
+    position: sticky;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 150%;
+}
+
+.container1{
+justify-content: space-between;
+color: white;
+}
