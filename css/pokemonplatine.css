@@ -9,34 +9,15 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
     height: 100px;
     width: 100%;
 }
-
-.card {
-    color: white;
-    padding-top: 1%;
-}
-
-.info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 100px;
-    width: 100%;
-}
-
-.row {
-    justify-content: space-around;
-}
-
 .container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    color: white;
+    color: black;
     font-size: 150%;
 }
 
