@@ -32,3 +32,37 @@ nav {
 .footer img {
     height: 20px;
 }
+
+.panels{
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+}
+
+.panel{
+    height: 100%;
+    flex:1;
+    transition: flex 1s;
+    flex:3.5;
+    transition: flex 0.75s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+.panel:hover{
+    flex:4
+}
+
+.legendarya{
+    background-image: url("../img/groudon.jpg");
+}
+.legendaryb{
+    background-image: url("../img/kyogre.jpg");
+  
+}
