@@ -21,6 +21,10 @@ nav {
     font-size: 150%;
 }
 
+.container p{
+    text-align: justify;
+}
+
 .footer {
     display: flex;
     justify-content: center;

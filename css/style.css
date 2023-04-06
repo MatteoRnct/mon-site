@@ -17,6 +17,7 @@ nav {
 .card {
     color: white;
     padding-top: 1%;
+    text-align: center;
 }
 
 .info {
@@ -38,6 +39,11 @@ nav {
     align-items: center;
     color: white;
     font-size: 150%;
+}
+
+.container p{
+    padding-right: 3vw;
+    text-align: justify;
 }
 
 .footer {
